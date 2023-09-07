@@ -1,67 +1,9 @@
+@use "hero";
+@use "techs";
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   list-style: none;
-}
-
-.container {
-  max-width: 960px;
-  width: 100%;
-}
-
-.hero {
-  width: 100%;
-  position: relative;
-  background-image: url(../images/fundo.png);
-  height: 561px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  &__contador {
-    position: relative;
-    color: #FFF;
-    display: flex;
-    font-size: 60px;
-    display: flex;
-    justify-content: center;
-  }
-
-  &__fundo {
-    top: 0;
-    left: 0;
-    position: absolute;
-    background-color: black;
-    height: 100%;
-    width: 100%;
-    opacity: 50%;
-  }
-
-  &__infos {
-    background-color: #ffffff;
-    position: relative;
-    padding: 16px 24px;
-    display: flex;
-    justify-content: space-between;
-
-    .btn {
-      border: none;
-      background-color: #4F2AC3;
-      color: #FFF;
-      padding: 12px;
-    }
-
-    ul {
-      display: flex;
-      align-items: center;
-      gap: 40px;
-
-      li {
-        b {
-          margin-bottom: 50px;
-        }
-      }
-    }
-  }
 }
